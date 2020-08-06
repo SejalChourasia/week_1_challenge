@@ -14,36 +14,6 @@
     height: 2471px;
     background: #FFFFFF;
 }
-/* .e50{
-    display: flex;
-flex-direction: row;
-padding: 0px;
-
-position: absolute;
-width: 60px;
-height: 4096px;
-left: -382px;
-top: -1491px;
-
-background: url(5e09a208-3e73-4e46-8c79-e3b5768f21b0.png);
-}
-.shanghai{
-    position: static;
-width: 60px;
-height: 30px;
-left: 0px;
-top: 2033px;
-font-family: Raleway;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 30px;
-color: rgba(0, 0, 0, 0.65);
-flex: none;
-order: 0;
-align-self: center;
-margin: 0px 0px;
-} */
 .navrect{
     position: absolute;
     width: 1440px;
@@ -337,10 +307,10 @@ color: #1890FF;
 }
 .choose{
     position: absolute;
-width: 405px;
-height: 39px;
-left: 517px;
-top: 744px;
+    width: 405px;
+    height: 39px;
+    left: 517px;
+    top: 744px;
 
 /* H3 Heading */
 
@@ -357,10 +327,10 @@ color: #343434;
 }
 .gp145{
     position: absolute;
-width: 599px;
-height: 422px;
-left: 60px;
-top: 882px;
+    width: 599px;
+    height: 422px;
+    left: 60px;
+    top: 882px;
 
 background: linear-gradient(100.81deg, #2F80ED 0.94%, rgba(123, 174, 244, 0.635417) 73.96%, rgba(150, 191, 246, 0.504346) 83.82%, rgba(255, 255, 255, 0) 121.8%), #56CCF2;
 /* drop-shadow/.15 */
@@ -1197,99 +1167,614 @@ border-radius: 10px;
     font-size: 18px;
     line-height: 28px;
     /* identical to box height, or 156% */
-    
-    
     color: #343434;
+    }
+    
+    html, body
+      {
+      width: 100%;
+      overflow-x: hidden;
+      }
+
+/* responsiveness */
+
+@media screen and (max-width: 450px) {
+        .rect{
+            width: 23%;
+        }
+    .bookimg{
+    left:2px;
+    height:20px;
+    width:20px;
+    top:555px;
+    }
+    html, body
+    {
+    width: 100%;
+    overflow-x: hidden;
+    }
+    .book{
+    left:25px;
+    font-size:10px;
+    top:535px;
+    }
+    
+    .interactimg{
+    left:130px;
+    height:20px;
+    width:20px;
+    top:555px;
+    }
+    
+    .interact{
+    left:150px;
+    font-size:10px;
+    top:535px;
+    }
+    
+    .trophyimg
+    {
+    left:250px;
+    height:20px;
+    width:20px;
+    top:555px;
+    }
+    
+    .trophy
+    {
+    left:270px;
+    font-size:10px;
+    top:535px;
+    }
+        .lptext{
+            left:2px;
+            font-size: small;
+        }
+    
+        .lpcont h2{
+            left: 2px;
+        }
+        .boost{
+            top:450px;
+            left: 2px;
+            font-size: medium;
+        }
+        .lptwo{
+            left:2px;
+    height:50px;
+            width: 390px;
+        }
+        .learningPath{
+            height: 3000px;
+        }
+        .gp146{
+            left: 60px;
+            top: 1930px;
+        }
+        .gp148{
+            left: 60px;
+            top: 2460px;
+        }
+        .lptext {
+              width: 90vw;
+               top:270px;
+            }
+            .ptr{
+           left:2px;
+            width: 390px;
+            }
+            
+          
+            .choose {
+              left:30px;
+    text-align:left;
+            }
+            
+          
+            .desknav {
+              display: none;
+            }
+          
+            .mobNav {
+              display: block;
+           position: absolute;
+        right: 0;
+            }
+            .mobNav a {
+              color: black;
+              text-decoration: none;
+              font-size: 30px;
+            }
+          
+            .lpimg {
+              display: block;
+              left:2px;
+              top:80px;
+              width:300px;
+              height:150px;
+        
+            }
+    .group{
+    display:flex;
+    flex-direction:row;
     
     }
-    /* responsiveness */
-@media screen and (max-width: 1600px) {
-        .rect{
-          width: 100vp;
-        }
-      }
-@media screen and (max-width: 1100px) {
-    .choose {
-        left: 45px;
-      }
-      
-        .mobileHide {
-          display: none;
-        }
-      }
-@media screen and (max-width: 760px) {
-    .rect{
-        width: 100vp;
+    
+    .gp145
+    {
+    left:10px;
+    width:350px;
     }
-    .lptwo{
-        width: 70vp;
+    
+    .gp145h6
+    {
+    left:10px;
     }
+    .gp145h3
+    {
+    left:10px;
+    }
+    .gp145p
+    {
+    width:330px;
+    left:10px;
+    }
+    
+    
+    .gp146
+    {
+    left:10px;
+    width:350px;
+    }
+    .gp147
+    {
+    left:10px;
+    width:350px;
+    }
+    .gp148
+    {
+    left:10px;
+    width:350px;
+    }
+    
+    #Lp5
+    {
+    left:10px;
+    }
+    #five
+    {
+    left:10px;
+    width:350px;
+    height:550px;
+    }
+    #frontEnd5
+    {
+    left:10px;
+    }
+    #five1
+    {
+    left:10px;
+    width:330px;
+    }
+    #what
+    {
+    left:10px;
+    top:320px;
+    }
+    #MFD
+    {
+    left:20px;
+    top:350px;
+    font-size:15px;
+    }
+    #MFD1
+    {
+    left:20px;
+    top:400px;
+    font-size:15px;
+    }
+    #MFD2
+    {
+    font-size:15px;
+    left:20px;
+    top:450px;
+    }
+    
+    
+    #d1
+    {
+    text-align:left;
+    left:5px;
+    }
+    #d2{
+        text-align:left;
+    
+    left:2px;
+    }
+    
+    #pic
+    {
+    display:flex;
+    flex-direction:row;
+    }
+    #i2
+    {
+    left:15px;
+    top:1250px;
+    }
+    #pi21
+    {
+    left:15px;
+    top:1500px;
+    }
+    #pi22
+    {
+    left:30px;
+    top:1550px;
+    }
+    
+    #i3
+    {
+    left:15px;
+    top:1700px;
+    }
+    #pi31
+    {
+    left:15px;
+    top:1950px;
+    }
+    #pi32
+    {
+    left:30px;
+    top:2000px;
+    }
+    
+    #d3{
+    left:0px;
+    text-align:left;
+    font-size:25px;
+    top:2100px;
+    }
+    
+    #week
+    {
+    font-size:20px;
+    left:10px;
+    top:2130px;
+    }
+    
+    #tble
+    {
+    top:2200px;
+    left:10px;
+    height:1300px;
+    width:355px;
+    }
+    
+    #lhc
+    {
+    left:10px;
+    }
+    
+    
+    #txt
+    {
+    left:10px;
+    width:340px;
+    }
+    #proTxt
+    {
+    line-height:15px;
+    left:25px;
+    }
+    
+    #main
+    {
+    display:flex;
+    flex-direction:row;
+    }
+    
+    #fun
+    {
+    left:12px;
+    }
+    #fun1
+    {
+    line-height:15px;
+    left:25px;
+    }
+    #cs
+    {
+    left:12px;
+    top:600px;
+    }
+    #cs1
+    {
+    line-height:15px;
+    left:25px;
+    }
+    #pro
+    {
+    left:12px;
+    top:1000px;
+    }
+    
+          }
+    
+@media screen and (max-width: 320px) {
     .learningPath{
-        height: 3000px;
+        position: relative;
+        width: 400px;
+        height: 2750px;
+    }
+    .learningWeb{
+        width: 400px;
+        height: 2500px;
+    }
+    .rect{
+        width: 21%;
+    }
+    .lptext{
+        left:2px;
+        font-size: small;
+        top: 110px;
+    }
+    .lpimg {
+        display: block;
+        left: 2px;
+        top: 250px;
+        width: 300px;
+    }
+    .lpcont h2{
+        top: 45px;
+        left: 2px;
+    }
+    .boost{
+        left: 13px;
+        font-size: medium;
+        top: 500px;
+    }
+    .choose {
+        left: 0px;
+        top: 790px;
+        font-size: large;
+    }
+    .gp145{
+        left: 2px;
+        width: 300px;
     }
     .gp146{
-        left: 60px;
-        top: 1930px;
+        left: 2px;
+        top: 1820px;
+        width: 300px;
     }
     .gp148{
-        left: 60px;
-        top: 2460px;
+        left: 2px;
+        top: 2290px;
+        width: 300px;
+    }
+    .gp147{
+        left: 2px;
+        width: 300px;
+        top: 1350px;
+    }
+    .gp145h3{
+        left: 16px;
+        font-size: 25px;
+    }
+    .gp145h6{
+        left: 16px;
+    }
+    .gp145p{
+        left: 16px;
+        width: auto;
+    }
+    .projects{
+        top: 20px;
+        left: 130px;
+    }
+    .pro{
+        top: 70px;
+        left: 130px;
+    }
+    .duration{
+        top: 20px;
+    }
+    .week{
+        top: 70px;
     }
     .lptext {
-          width: 100vw;
-        }
-        .ptr{
-            width: 90vw;
-        }
-        .lau{
-            width: 90vw;
-        }
-        .ayc{
-            flex-direction: row;
-        }
-        h1 {
-          font-size: 50px;
-        }
-      
-        h2 {
-          font-size: 35px;
-        }
-      
-        p {
-          font-size: 16px;
-        }
-      
-        a {
-          font-size: 16px;
-        }
-      
-        .btn {
-          font-size: 16px;
-        }
-      
-        .boost{
-            top: 450px;
-        }
-      
-        .choose {
-          left: 12px;
-        }
+        width: 100vw;
+    }
+    #five{
+        left: 6px;
+        width: 300px;
+        height: 700px;
+    }
+    #Lp5{
+        left: 16px;
+    }
+    #frontEnd5{
+        left: 16px;
+        font-size: 25px;
+    }
+    #five1{
+        left: 16px;
+        width: auto;
+    }
+    #p5{
+        top: 250px;
         
-      
+    }
+    #p55{
+        top: 300px;
+        
+    }
+    #duration5{
+        top: 250px;
+    }
+    #week5{
+        top: 300px;
+    }
+    #what{
+        top: 350px;
+        left: 110px;
+    }
+    #MFD{
+        top: 400px;
+        left: 16px;
+    }
+    #MFD1{
+        top: 500px;
+        left: 16px;
+    }
+    #MFD2{
+        top: 600px;
+        left: 16px;
+    }
+    #d1{
+        top: 800px;
+        font-size: 15px;
+        left: 0;
+        text-align: left;
+    }
+    #d2{
+        top: 850px;
+        left: 0;
+        font-size: small;
+        text-align: left;
+        width: auto;
+    }
+    #i1{
+        top: 900px;
+        width: 300px;
+    }
+    #pi11{
+        top: 1110px;
+        font-size: 18px;
+        left: -5px;
+    }
+    #pi12{
+        top: 1150px;
+        font-size: small;
+        left: -5px;
+    }
+    #i2{
+        top: 1200px;
+        left: 1px;
+        width: 300px;
+    }
+    #pi21{
+        top: 1400px;
+        left: -5px;
+        font-size: 18px;
+    }
+    #pi22{
+        top: 1450px;
+        font-size: small;
+        left: -5px;
+    }
+    #i3{
+        top: 1550px;
+        width: 300px;
+        left: 0;
+    }
+    #pi31{
+        top: 1800px;
+        font-size: 18px;
+        left: 0;
+    }
+    #pi32{
+        top: 1850px;
+        font-size: small;
+        left: 0px;
+        width: auto;
+    }
+    
         .desknav {
           display: none;
         }
       
         .mobNav {
-          display: block;
+            display: block;
+            position: absolute;
+            right: 0;
         }
         .mobNav a {
           color: black;
           text-decoration: none;
           font-size: 30px;
         }
-      
-        .lpimg {
-          display: none;
+        .lptwo{
+            top: 570px;
+            left:2px;
+            height: 200px;
+            width: 300px;
         }
+       .book{
+           top: 560px;
+           left:80px;
+           font-size: large;
+       }
+        .bookimg{
+            top: 590px;
+            left: 20px;
+        }
+         .interact{
+            left:80px;
+            top: 620px;
+            font-size: large;
+        }  
+        .interactimg{
+            left:20px;
+            top: 650px; 
+        } 
+        .trophy{
+            left:80px;
+            top: 680px;
+            font-size: large;
+        }  
+        .trophyimg{
+            left:20px;
+            top: 710px;
+        }
+        #week{
+            top: 1960px;
+            left: 0px;
+        }
+        #lhc{
+            left: 10px;
+            top: 50px;
+            }
+       #txt{
+        left: 10px;
+        top: 120px;
+        width: auto;
+       }
+       #fun{
+        left: 10px;
+       }
+    
+    #cs{
+        left: 10px;
+        top: 550px; 
+    }
+       
+        
+    #pro{
+            top:930px;
+     left: 10px;
+        }
+     #tble{
+         width: 300px;
+        height: 1190px;
+        top: 2020px;
+     }  
+     #d3{
+         left: 0px;
+         font-size:large ;
+         top: 1920px;
+     }
+      
       }
+
